@@ -1,11 +1,11 @@
 # NetflixGpt
 
--Create React App 
-    - install using vite
+- Create React App 
 
+    - install using vite
     `npm create vite@latest my-app -- --template react`
 
-    -select package name
+    - select package name
 
     -install parcel
     `npm install --save-dev parcel`
@@ -16,6 +16,7 @@
     - install npm
 
     - Modify your vite.config.js
+
     ` import { defineConfig } from 'vite';
     import react from '@vitejs/plugin-react';
     import { webcrypto } from 'node:crypto';
@@ -32,6 +33,8 @@
     `npm run dev`
 
 - Configure TailwindCss
+- install Router package 
+ `npm i -D react-router-dom` 
 
 # Feature
 -Login/Sign Up
