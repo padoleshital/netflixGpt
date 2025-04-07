@@ -1,8 +1,14 @@
 import React from 'react';
+
+//components
 import Login from '../components/Login';
 import Browse from '../components/Browse';
+import SignUp from '../components/SignUp';
+
+//react-router-library
 import { RouterProvider } from 'react-router-dom';
 import { createBrowserRouter } from 'react-router-dom';
+
 
 const Body = () =>
     {
@@ -12,10 +18,14 @@ const Body = () =>
                 element:<Login/>
             },
             {
+                path:"/SignUp",
+                element:<SignUp/>
+            },
+            {
                 path:"/browse",   //authenticated page
                 element:<Browse/>
             }
-        ])
+        ]);
 
 
 
